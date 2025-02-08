@@ -1,0 +1,72 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Topic selection */
+#topic-selection {
+    margin: 20px;
+}
+
+#topic-selection label,
+#topic-selection select {
+    font-size: 18px;
+}
+
+#generateProblem {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#generateProblem:hover {
+    background-color: #45a049;
+}
+
+/* Problem and answer display */
+#problem {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#showAnswer {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#showAnswer:hover {
+    background-color: #0b7dda;
+}
+
+/* Styles for the logarithm base */
+.log-base {
+    font-size: 0.8em; /* Smaller font size for the base */
+    vertical-align: sub; /* Subscript alignment */
+}

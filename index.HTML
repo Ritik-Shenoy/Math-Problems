@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Problem Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Math Problem Generator by RShenoy</h1>
+    </header>
+
+    <main>
+        <section id="topic-selection">
+            <label for="topic">Choose a topic:</label>
+            <select id="topic">
+                <option value="addition">Addition</option>
+                <option value="subtraction">Subtraction</option>
+                <option value="multiplication">Multiplication</option>
+                <option value="division">Division</option>
+                <option value="exponent">Exponents</option>
+                <option value="logarithm">Logarithms</option>
+            </select>
+
+            <button id="generateProblem">Generate Problem</button>
+        </section>
+
+        <section id="problem">
+            <p>Problem: <span id="mathProblem"></span></p>
+            <p id="answer" style="display:none;">Answer: <span id="answerText"></span></p>
+            <button id="showAnswer" style="display:none;">Show Answer</button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
